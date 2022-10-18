@@ -1,0 +1,60 @@
+
+body{
+	background: url("../img/images.jfif") 0 0/100% no-repeat;
+	background-size: cover;
+	position: relative;
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.car__body {
+	width: 500px;
+	height: 200px;
+	border-radius: 45% 55% 0% 100% / 100% 0% 100% 0% ;
+	background-color: yellow;
+	position: relative;
+	top: 400px;
+	left: 700px;
+}
+
+.car__wheel {
+	border: 3px solid;
+   border-radius: 50%;
+   width: 100px;
+   height: 100px;
+   position: absolute;
+	background-color: black;
+   top: 570px;
+}
+.car__wheel--front {
+   left: 750px;
+}
+.car__wheel--back {
+   left: 1050px;
+}
+.car__wheel-inside{
+	border: 5px solid;
+   border-radius: 50%;
+   width: 70px;
+   height: 70px;
+   position: absolute;
+   top: 10px;
+   left: 10px;
+	background-color: orangered; 
+}
+.car__window {
+	border: 5px solid orangered;
+	background-color:  orangered;
+   border-radius: 100% 0% 0% 100% / 99% 0% 100% 1%;
+   width: 150px;
+   height: 100px;
+	position: absolute;
+	top: 430px;
+}
+.car__window--1 {
+	right: 1000px;
+}
+.car__window--2 {
+	left: 1000px;
+	border-radius:  0% 0% 100% / 0% 0% 100% 100%;
+}
